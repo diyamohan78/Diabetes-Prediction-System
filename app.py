@@ -28,8 +28,8 @@ st.set_page_config(
 
 DATA_PATH = "diabetes.csv"
 LOGO_PATH = "images/logo.png"
-BANNER_PATH = "images/diabetes_banner.png"
-PREVIEW_PATH = "images/prediction.png"
+BANNER_PATH = "images/Diabetes_banner.png"
+PREVIEW_PATH = "images/Prediction.png"
 
 PRIMARY_COLOR = "#0F766E"       # teal - medical / trustworthy
 ACCENT_COLOR = "#F97316"        # warm accent for highlights
