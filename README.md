@@ -4,6 +4,11 @@
 
 ---
 
+🌐 Live Demo
+https://diya-diabetes-prediction-system78.streamlit.app/
+
+---
+
 ## 🌟 Project Highlights
 
 - 🧠 Machine Learning-based Diabetes Prediction
