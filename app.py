@@ -165,23 +165,23 @@ def safe_image(path: str, **kwargs) -> None:
 # App Entry Point
 # ==========================================================
 
-def main() -> None:
+def main():
     inject_custom_css()
 
     try:
         df = load_data(DATA_PATH)
     except FileNotFoundError as e:
-        st.error(f"⚠️ {e}\n\nPlease place `diabetes.csv` in the app's root directory.")
+        st.error(f"⚠️ {e}")
         st.stop()
 
-    # ------------------------------------------------------
     # Sidebar
-    # ------------------------------------------------------
-with st.sidebar:
-    safe_image(LOGO_PATH, width=160)
-    st.title("🩺 Diabetes Dashboard")
-    st.divider()
-    st.info("⬅️ Select a page from the navigation above.")
+    with st.sidebar:
+        safe_image(LOGO_PATH, width=160)
+        st.title("🩺 Diabetes Dashboard")
+        st.divider()
+        st.info("⬅️ Select a page from the navigation above.")
+
+    # Everything else...
         
 
     # ------------------------------------------------------
