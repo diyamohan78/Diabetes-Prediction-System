@@ -179,9 +179,7 @@ def main():
         safe_image(LOGO_PATH, width=160)
         st.title("🩺 Diabetes Dashboard")
         st.divider()
-        with st.sidebar:
-    
-
+        
         st.page_link("app.py", label="🏠 Home", icon="🏠")
         st.page_link("pages/Data Analysis.py", label="📊 Data Analysis", icon="📊")
         st.page_link("pages/Diabetes Prediction.py", label="🔍 Prediction", icon="🔍")
