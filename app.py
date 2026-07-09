@@ -180,22 +180,7 @@ def main() -> None:
     with st.sidebar:
         safe_image(LOGO_PATH, width=160)
         st.title("🩺 Diabetes Dashboard")
-        st.markdown("---")
-        st.markdown("**Navigate**")
-        st.write("🏠 Dashboard")
-        st.write("📊 Dataset Analytics")
-        st.write("🔍 Prediction")
-        st.write("📈 Model Performance")
-        st.write("👩‍💻 About")
-        st.markdown("---")
-        st.markdown(
-            """
-            **Built with**
-            ✅ Python
-            ✅ Streamlit
-            ✅ Logistic Regression
-            """
-        )
+        
 
     # ------------------------------------------------------
     # Banner + Title
