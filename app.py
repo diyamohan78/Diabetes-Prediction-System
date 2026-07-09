@@ -178,8 +178,10 @@ def main() -> None:
     # Sidebar
     # ------------------------------------------------------
     with st.sidebar:
-        safe_image(LOGO_PATH, width=160)
-        st.title("🩺 Diabetes Dashboard")
+    safe_image(LOGO_PATH, width=160)
+    st.title("🩺 Diabetes Dashboard")
+    st.divider()
+    st.info("⬅️ Select a page from the navigation above.")
         
 
     # ------------------------------------------------------
