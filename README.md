@@ -1,55 +1,67 @@
 # 🩺 Diabetes Prediction System
 
-A Machine Learning-based web application that predicts whether a patient is likely to have diabetes using patient health parameters. The application is developed using **Python**, **Streamlit**, and **Logistic Regression**, providing an intuitive interface for prediction, data analysis, and model performance evaluation.
+> **A Machine Learning-powered web application that predicts the likelihood of diabetes using patient health parameters.** Built with **Python**, **Streamlit**, **Scikit-learn**, and **SQLite**, this application offers an interactive interface for prediction, data visualization, and model performance evaluation.
+
+---
+
+## 🌟 Project Highlights
+
+- 🧠 Machine Learning-based Diabetes Prediction
+- 📊 Interactive Data Analysis Dashboard
+- 📈 Model Performance Evaluation
+- 💾 Patient Record Management using SQLite
+- 🎨 Clean & User-Friendly Streamlit Interface
+- ⚡ Fast and Responsive Web Application
 
 ---
 
 ## 📌 Problem Statement
 
-Diabetes is one of the most common chronic diseases worldwide. Early prediction can help healthcare professionals and patients take preventive measures before complications arise.
+Diabetes is one of the most common chronic diseases worldwide. Early prediction can help healthcare professionals and individuals take preventive measures before serious complications occur.
 
-This project aims to build an intelligent prediction system that estimates the likelihood of diabetes based on medical attributes using Machine Learning.
+This project leverages Machine Learning to estimate diabetes risk based on patient medical information, providing quick and reliable predictions through an intuitive web interface.
 
 ---
 
 ## ✨ Features
 
-- 🔹 Predict diabetes risk using patient health information
-- 🔹 Interactive Streamlit web interface
-- 🔹 Data Analysis and Visualization
-- 🔹 Model Performance Evaluation
-- 🔹 Patient Record Management using SQLite
-- 🔹 Responsive and user-friendly dashboard
+- 🔹 Predict diabetes risk using patient medical data
+- 🔹 Interactive Streamlit-based user interface
+- 🔹 Data Analysis & Visualization
+- 🔹 Model Performance Dashboard
+- 🔹 SQLite Database for Patient Records
+- 🔹 Easy-to-use and responsive design
 
 ---
 
 ## 🛠️ Tech Stack
 
-- Python
-- Streamlit
-- Pandas
-- NumPy
-- Scikit-learn
-- Matplotlib
-- Seaborn
-- Plotly
-- SQLite
-- Joblib
+| Category | Technologies |
+|----------|--------------|
+| Programming | Python |
+| Web Framework | Streamlit |
+| Machine Learning | Scikit-learn |
+| Data Processing | Pandas, NumPy |
+| Visualization | Matplotlib, Seaborn, Plotly |
+| Database | SQLite |
+| Model Storage | Joblib |
 
 ---
 
 ## 🧠 Machine Learning Model
 
-- **Algorithm:** Logistic Regression
-- **Problem Type:** Binary Classification
-- **Dataset:** Pima Indians Diabetes Dataset
-- **Target Variable:** Outcome
+| Item | Details |
+|------|---------|
+| Algorithm | Logistic Regression |
+| Problem Type | Binary Classification |
+| Dataset | Pima Indians Diabetes Dataset |
+| Target Variable | Outcome |
 
 ---
 
 ## 📊 Input Features
 
-The prediction model uses the following medical parameters:
+The prediction model uses the following medical attributes:
 
 - Pregnancies
 - Glucose
@@ -70,6 +82,7 @@ Diabetes-Prediction-System/
 ├── assets/
 ├── images/
 ├── Pages/
+├── screenshots/
 ├── app.py
 ├── train_model.py
 ├── db_utils.py
@@ -77,26 +90,27 @@ Diabetes-Prediction-System/
 ├── model.pkl
 ├── scaler.pkl
 ├── requirements.txt
-└── README.md
+├── README.md
+└── .gitignore
 ```
 
 ---
 
 ## 🚀 Installation
 
-Clone the repository
+### Clone the repository
 
 ```bash
-git clone https://github.com/coderdiya/Diabetes-Prediction-System.git
+git clone https://github.com/diyamohan78/Diabetes-Prediction-System.git
 ```
 
-Install dependencies
+### Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Run the application
+### Run the application
 
 ```bash
 streamlit run app.py
@@ -104,13 +118,38 @@ streamlit run app.py
 
 ---
 
-## 📈 Future Enhancements
+## 📸 Project Screenshots
 
-- Compare multiple Machine Learning models
-- Deploy on Streamlit Community Cloud
-- User Authentication
-- Explainable AI (SHAP)
-- Cloud Database Integration
+### 🏠 Home Page
+
+![Home](screenshots/ss_home.png)
+
+### 🩺 Diabetes Prediction
+
+![Prediction](screenshots/ss_pred.png)
+
+### 📊 Data Analysis
+
+![Analysis](screenshots/ss_da.png)
+
+### 📈 Model Performance
+
+![Performance](screenshots/ss_model.png)
+
+### ℹ️ About Page
+
+![About](screenshots/ss_About.png)
+
+---
+
+## 🎯 Future Enhancements
+
+- 🤖 Compare multiple Machine Learning models
+- ☁️ Deploy on Streamlit Community Cloud
+- 🔐 User Authentication
+- 📄 Download Prediction Reports (PDF/CSV)
+- 📊 Explainable AI (SHAP/LIME)
+- 🌐 Cloud Database Integration
 
 ---
 
@@ -118,10 +157,12 @@ streamlit run app.py
 
 **Diya Mohan**
 
-Aspiring Data Analyst | Data Scientist
+🎓 Aspiring Data Analyst & Data Scientist
 
-GitHub: https://github.com/coderdiya
+📧 **Open to internships and entry-level opportunities in Data Analytics and Data Science.**
 
 ---
 
-⭐ If you found this project useful, consider giving it a star.
+## ⭐ Support
+
+If you found this project helpful, consider **starring ⭐ the repository** and sharing your feedback.
